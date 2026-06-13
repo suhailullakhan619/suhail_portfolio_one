@@ -1,6 +1,6 @@
 'use client'
 
-import  SplineScene  from "../ui/HeroSection/splite";
+import SplineScene from "../ui/HeroSection/splite";
 import { Card } from "../ui/HeroSection/card"
 import { Spotlight } from "../ui/HeroSection/spotlight"
 import BorderButton from "../ui/HeroSection/subtle-button"
@@ -30,13 +30,8 @@ export function SplineSceneBasic() {
 
           <p className="mt-4 text-sm sm:text-base md:text-base lg:text-lg 
                         text-neutral-300 max-w-md mx-auto md:mx-0 lato-bold " >
-            I’m a frontend developer focused on building scalable, 
-            high-performance, and user-centric web applications.
-            I specialize in creating responsive, visually engaging
-            interfaces with strong attention to usability and performance.
-            I have hands-on experience integrating APIs, managing
-            application state, and delivering seamless cross-device
-            user experiences using modern frontend technologies.
+            I'm a Software Developer specializing in React, Vue.js, Next.js, TypeScript, and AWS Serverless technologies. I build scalable web applications, responsive user interfaces, and cloud-powered solutions with a focus on performance, usability, and clean architecture.
+
           </p>
 
           <div className="mt-6">

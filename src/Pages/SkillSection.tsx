@@ -21,6 +21,14 @@ import  gitImg from '../assets/GitLogo.svg'
 import githubImg from '../assets/github logo.svg'
 import  postmanImg from '../assets/postman logo.svg'
 import  figmaImg from '../assets/figma logo.svg'
+import awsLambdaImg from '../assets/Lambda.svg'
+import apiGatewayImg from '../assets/API Gateway.svg'
+import dynamoDbImg from '../assets/DynamoDB.svg'
+import cognitoImg from '../assets/Cognito.svg'
+import s3Img from '../assets/Simple Storage Service.svg'
+import appSyncImg from '../assets/AppSync.svg'
+import vercelImg from '../assets/vercel logo.svg'
+import netlifyImg from '../assets/netlify logo.svg'
 
 
 
@@ -41,38 +49,50 @@ const SkillsPage = () => {
           <div className="w-full md:w-1/2 max-w-xl">
             <ExpandableSkillTags
               title="Skills"
-              skills={[
-    // Core
-    { label: "JavaScript", icon:jsImg},
-    { label: "TypeScript", icon: typescriptImg },
-    { label: "HTML", icon: htmlImg },
-    { label: "CSS", icon: cssImg },
+             skills={[
+  // Languages
+  { label: "JavaScript", icon: jsImg },
+  { label: "TypeScript", icon: typescriptImg },
+  { label: "HTML5", icon: htmlImg },
+  { label: "CSS3", icon: cssImg },
 
-    // Frameworks
-    { label: "React", icon: reactImg },
-    { label: "Vue", icon: vueImg },
-    { label: "Next.js", icon: nextImg},
-    { label: "Tailwind CSS", icon:tailwindcssImg },
-    { label: "Vuetify", icon: vuetifyImg },
-    { label: "Material UI", icon: materialuiImg },
+  // Frontend
+  { label: "React", icon: reactImg },
+  { label: "Vue.js", icon: vueImg },
+  { label: "Next.js", icon: nextImg },
 
-    // State & Data
-    { label: "Redux", icon: reduxImg },
-    { label: "Vuex", icon: vuexImg },
-    { label: "TanStack Query", icon: tanstackImg },
-    { label: "GraphQL", icon: graphqlImg},
-    { label: "REST APIs", icon: restapiImg },
+  // UI & Styling
+  { label: "Tailwind CSS", icon: tailwindcssImg },
+  { label: "Vuetify", icon: vuetifyImg },
+  { label: "Material UI", icon: materialuiImg },
 
-    // Databases
-    { label: "MongoDB", icon:mongodbImg },
-    { label: "MySQL", icon: mysqlImg },
+  // State & Data
+  { label: "Redux", icon: reduxImg },
+  { label: "Vuex", icon: vuexImg },
+  { label: "TanStack Query", icon: tanstackImg },
+  { label: "GraphQL", icon: graphqlImg },
+  { label: "REST APIs", icon: restapiImg },
 
-    // Tools
-    { label: "Git", icon: gitImg },
-    { label: "GitHub", icon: githubImg },
-    { label: "Postman", icon: postmanImg },
-    { label: "Figma", icon: figmaImg },
-  ]}
+  // Backend & Cloud
+  { label: "AWS Lambda", icon: awsLambdaImg },
+  { label: "API Gateway", icon: apiGatewayImg },
+  { label: "DynamoDB", icon: dynamoDbImg },
+  { label: "Cognito", icon: cognitoImg },
+  { label: "S3", icon: s3Img },
+  { label: "AppSync", icon: appSyncImg },
+
+  // Databases
+  { label: "MongoDB", icon: mongodbImg },
+  { label: "MySQL", icon: mysqlImg },
+
+  // Tools
+  { label: "Git", icon: gitImg },
+  { label: "GitHub", icon: githubImg },
+  { label: "Postman", icon: postmanImg },
+  { label: "Figma", icon: figmaImg },
+  { label: "Vercel", icon: vercelImg },
+  { label: "Netlify", icon: netlifyImg },
+]}
               className="p-6"
             />
           </div>

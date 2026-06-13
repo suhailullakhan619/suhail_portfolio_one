@@ -1,8 +1,8 @@
 "use client"
 import React, { useEffect, useState, memo } from 'react';
-
+import awsImg from '../../assets/aws.svg'
 // --- Type Definitions ---
-type IconType = 'html' | 'css' | 'javascript' | 'react' | 'vue' | 'tailwind';
+type IconType = 'html' | 'css' | 'javascript' | 'react' | 'aws' | 'tailwind';
 
 type GlowColor = 'cyan' | 'purple';
 
@@ -72,21 +72,12 @@ const iconComponents: Record<IconType, { component: () => React.JSX.Element; col
     ),
     color: '#61DAFB'
   },
-  vue: {
-    component: () => (
-      <svg viewBox="0 0 24 24" className="w-full h-full">
-        <path
-          d="M2 3h4.5L12 12l5.5-9H22l-10 18L2 3z"
-          fill="#41B883"
-        />
-        <path
-          d="M6.5 3L12 12l5.5-9h3L12 21 3.5 3h3z"
-          fill="#34495E"
-        />
-      </svg>
-    ),
-    color: "#41B883",
-  },
+aws: {
+  component: () => (
+    <img src={awsImg} alt='AWS'/>
+  ),
+  color: "#FF9900",
+},
   tailwind: {
     component: () => (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
@@ -149,14 +140,14 @@ const skillsConfig: SkillConfig[] = [
     label: 'React'
   },
   {
-    id: 'vue',
+    id: 'aws',
     orbitRadius: 180,
-    size: 45,
+    size: 50,
     speed: -0.6,
-    iconType: 'vue',
+    iconType: 'aws',
     phaseShift: (2 * Math.PI) / 3,
     glowColor: 'purple',
-    label: 'vue'
+    label: 'AWS'
   },
   {
     id: 'tailwind',

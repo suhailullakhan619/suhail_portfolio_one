@@ -10,25 +10,30 @@ const WORK_EXPERIENCE: ExperienceItemType[] = [
     companyUrl: "https://www.mobil80.com/",// add logo if you have
     positions: [
       {
-        id: "mobil80-frontend",
-        title: "Frontend Developer",
+        id: "mobil80-Software",
+        title: "Software Developer",
         employmentPeriod: "Dec 2025 — Present",
         employmentType: "Full-time",
         icon: "code",
-        description: `- Built and maintained enterprise portals (EZTRAK, QR Portal, EZTRAK-BMS) using Vue.js and React.js, delivering production-ready features for a Singapore-based client handling real-time data workflows.
-- Implemented frontend Role-Based Access Control (RBAC) using conditional rendering and protected routes, improving application security and reducing unauthorized access by ~30%.
-- Integrated GraphQL and REST APIs to power real-time dashboards, enhancing data accessibility and improving API efficiency.
-- Optimized frontend performance using lazy loading, memoization, and efficient state management, reducing unnecessary re-renders and improving load time.`,
+        description: `• Built and maintained enterprise platforms including EZTRAK, QR Portal, and EZTRAK-BMS using React.js and Vue.js, delivering scalable solutions for a Singapore-based client managing real-time business workflows.
+
+• Developed and integrated AWS serverless solutions using Lambda, API Gateway, DynamoDB, Cognito, S3, and AppSync, while implementing GraphQL and REST APIs to support secure, scalable, and data-driven applications.
+
+• Designed responsive and reusable UI components with Tailwind CSS and Vuetify, and implemented Role-Based Access Control (RBAC), protected routes, and modern state management to enhance security and user experience.
+
+• Optimized application performance through lazy loading, code splitting, memoization, and efficient state management, while collaborating across frontend, backend, and cloud teams following modern development best practices.
+`,
         skills: [
+          "JavaScript & TypeScript",
           "React.js",
           "Vue.js",
-          "GraphQL",
-          "REST APIs",
+          "GraphQL & REST APIs",
+          "State Management",
+          "Tailwind CSS & UI Frameworks",
+          "AWS Serverless",
           "RBAC",
           "Performance Optimization",
-          "State Management",
-          "JavaScript",
-          "Tailwind CSS",
+          "Git & GitHub"
         ],
         isExpanded: true,
       },
@@ -47,9 +52,11 @@ const WORK_EXPERIENCE: ExperienceItemType[] = [
         employmentPeriod: "Feb 2025 — Jun 2025",
         employmentType: "Internship",
         icon: "code",
-        description: `- Developed responsive web applications using React.js and Tailwind CSS, ensuring UI consistency and cross-device compatibility.
-- Managed server state using TanStack Query, optimizing API data fetching and reducing redundant network requests by ~25%.
-- Built reusable UI components to improve development speed and maintain consistency across multiple modules.`,
+        description: `• Developed responsive web applications using React.js and Tailwind CSS, ensuring UI consistency and cross-device compatibility.
+
+• Managed server state using TanStack Query, optimizing API data fetching and reducing redundant network requests by ~25%.
+
+• Built reusable UI components to improve development speed and maintain consistency across multiple modules.`,
         skills: [
           "React.js",
           "Tailwind CSS",

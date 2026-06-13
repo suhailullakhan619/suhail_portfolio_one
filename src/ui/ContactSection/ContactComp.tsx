@@ -115,7 +115,7 @@ export function Contact() {
                   Suhail Ulla Khan
                 </h3>
                 <p className="text-xs font-semibold uppercase tracking-[0.35em] text-foreground/45">
-                  Frontend Developer · React & Vue.js
+                  Software Developer · React · Vue · AWS
                 </p>
               </motion.div>
 
@@ -126,9 +126,10 @@ export function Contact() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="mt-4 max-w-sm text-sm leading-relaxed text-foreground/70"
               >
-                Frontend developer focused on building scalable,
-                responsive, and high-performance web applications
-                with React.js, Vue.js, TypeScript, and modern UI technologies.
+                Building scalable web applications with React, Vue,
+                Next.js, TypeScript, GraphQL, and AWS Serverless
+                technologies. Focused on performance, user experience,
+                and modern cloud-driven architectures.
               </motion.p>
             </div>
 
