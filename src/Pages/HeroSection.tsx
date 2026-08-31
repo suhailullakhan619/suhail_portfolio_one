@@ -30,7 +30,7 @@ export function SplineSceneBasic() {
 
           <p className="mt-4 text-sm sm:text-base md:text-base lg:text-lg 
                         text-neutral-300 max-w-md mx-auto md:mx-0 lato-bold " >
-            I'm a Software Developer specializing in React, Vue.js, Next.js, TypeScript, and AWS Serverless technologies. I build scalable web applications, responsive user interfaces, and cloud-powered solutions with a focus on performance, usability, and clean architecture.
+            I'm a Software Developer specializing in React, Vue.js, Next.js, TypeScript, Node.js, and AWS Serverless technologies. I build scalable enterprise web applications, RESTful & GraphQL APIs, and cloud-native solutions — with a focus on performance, clean architecture, and delivering seamless user experiences from frontend to backend.
 
           </p>
 

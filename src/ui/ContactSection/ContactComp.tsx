@@ -115,7 +115,7 @@ export function Contact() {
                   Suhail Ulla Khan
                 </h3>
                 <p className="text-xs font-semibold uppercase tracking-[0.35em] text-foreground/45">
-                  Software Developer · React · Vue · AWS
+                  Software Developer · React · Vue · Node.js · AWS
                 </p>
               </motion.div>
 
@@ -126,10 +126,10 @@ export function Contact() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="mt-4 max-w-sm text-sm leading-relaxed text-foreground/70"
               >
-                Building scalable web applications with React, Vue,
-                Next.js, TypeScript, GraphQL, and AWS Serverless
-                technologies. Focused on performance, user experience,
-                and modern cloud-driven architectures.
+                Building scalable web applications and cloud-native APIs with
+                React, Vue, Next.js, Node.js, and AWS Serverless. Focused on
+                performance, clean architecture, and seamless user experience
+                from frontend to backend.
               </motion.p>
             </div>
 

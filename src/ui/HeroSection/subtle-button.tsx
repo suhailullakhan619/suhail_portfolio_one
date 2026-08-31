@@ -5,7 +5,7 @@ export default function BorderButton() {
   const [isPressed, setIsPressed] = useState(false)
 
   return (
-    <a href="https://drive.google.com/file/d/1hzSznd2J-BpI1LmJ-QxIJCMR_tyrOTui/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <a href="https://drive.google.com/file/d/1TBhjwOqTxR8d8gINPSGtoePwbXzcuvtl/view?usp=sharing" target="_blank" rel="noopener noreferrer">
       <button
         className='group relative border-2 flex justify-center items-center gap-3 border-white/70 rounded-full w-[9.3rem] h-12 
                    transition-all duration-500 ease-out hover:border-white hover:shadow-lg hover:shadow-white/20 

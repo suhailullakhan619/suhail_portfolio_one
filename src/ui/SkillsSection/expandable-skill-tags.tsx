@@ -24,7 +24,7 @@ interface ExpandableSkillTagsProps {
 export const ExpandableSkillTags = ({
   title,
   skills,
-  initialCount = 10,
+  initialCount = 19,
   className,
 }: ExpandableSkillTagsProps) => {
   const [isExpanded, setIsExpanded] = useState(false);

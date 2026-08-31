@@ -10,30 +10,29 @@ const WORK_EXPERIENCE: ExperienceItemType[] = [
     companyUrl: "https://www.mobil80.com/",// add logo if you have
     positions: [
       {
-        id: "mobil80-Software",
-        title: "Software Developer",
+        id: "mobil80-fullstack",
+        title: "Full Stack Developer",
         employmentPeriod: "Dec 2025 — Present",
         employmentType: "Full-time",
         icon: "code",
-        description: `• Built and maintained enterprise platforms including EZTRAK, QR Portal, and EZTRAK-BMS using React.js and Vue.js, delivering scalable solutions for a Singapore-based client managing real-time business workflows.
+        description: `• Built and maintained enterprise platforms including EZTRAK, QR Portal, and EZTRAK-BMS using React.js and Vue.js for a Singapore-based client, delivering real-time asset tracking and business workflow management — now live on iOS, Android, and web.
 
-• Developed and integrated AWS serverless solutions using Lambda, API Gateway, DynamoDB, Cognito, S3, and AppSync, while implementing GraphQL and REST APIs to support secure, scalable, and data-driven applications.
+• Engineered AWS serverless backend services with Lambda, API Gateway, DynamoDB, Cognito, S3, and AppSync, integrating GraphQL and REST APIs to support secure, scalable, and data-driven applications.
 
-• Designed responsive and reusable UI components with Tailwind CSS and Vuetify, and implemented Role-Based Access Control (RBAC), protected routes, and modern state management to enhance security and user experience.
+• Designed responsive, reusable UI components with Vue.js, Tailwind CSS, and Vuetify, implementing Role-Based Access Control (RBAC), protected routes, and modern state management to enhance security and user experience.
 
-• Optimized application performance through lazy loading, code splitting, memoization, and efficient state management, while collaborating across frontend, backend, and cloud teams following modern development best practices.
-`,
+• Optimized application performance through efficient state management, geolocation-based features, and map integrations, while collaborating across frontend, backend, and cloud teams following modern development best practices.`,
         skills: [
-          "JavaScript & TypeScript",
           "React.js",
           "Vue.js",
+          "Node.js",
+          "AWS Serverless (Lambda, API Gateway, DynamoDB, Cognito, S3, AppSync)",
           "GraphQL & REST APIs",
+          "RBAC & Authentication",
+          "Tailwind CSS & Vuetify",
           "State Management",
-          "Tailwind CSS & UI Frameworks",
-          "AWS Serverless",
-          "RBAC",
           "Performance Optimization",
-          "Git & GitHub"
+          "Git & GitHub",
         ],
         isExpanded: true,
       },
