@@ -11,7 +11,7 @@ const WORK_EXPERIENCE: ExperienceItemType[] = [
     positions: [
       {
         id: "mobil80-fullstack",
-        title: "Full Stack Developer",
+        title: "Software Developer",
         employmentPeriod: "Dec 2025 — Present",
         employmentType: "Full-time",
         icon: "code",
